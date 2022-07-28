@@ -1,6 +1,6 @@
 @file:Suppress("MagicNumber")
 
-package template.theme
+package ru.frozenpriest.weatherapp.theme
 
 import androidx.compose.ui.graphics.Color
 

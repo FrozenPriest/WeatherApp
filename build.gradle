@@ -11,6 +11,8 @@ buildscript {
     // https://github.com/ben-manes/gradle-versions-plugin
     ext.versionsPluginVersion = "0.42.0"
 
+    ext.dagger_version = "2.42"
+
     repositories {
         google()
         mavenCentral()
@@ -25,6 +27,7 @@ buildscript {
         classpath "org.jlleitschuh.gradle:ktlint-gradle:$ktlintPluginVersion"
         classpath "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$detektVersion"
         classpath "com.github.ben-manes:gradle-versions-plugin:$versionsPluginVersion"
+        classpath "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:$detektVersion"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

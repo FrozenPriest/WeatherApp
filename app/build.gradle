@@ -47,6 +47,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":feature-weather"))
+    implementation(project(":feature-settings"))
 
     implementation "androidx.core:core-ktx:$rootProject.ext.versions.ktxCore"
     implementation "androidx.appcompat:appcompat:$rootProject.ext.versions.appCompat"

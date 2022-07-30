@@ -1,6 +1,6 @@
 package ru.frozenpriest.weatherapp.core.database
 
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**
